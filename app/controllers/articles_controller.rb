@@ -48,4 +48,4 @@ class ArticlesController < ApplicationController
 
 end
 
-#You are on the view/create comments secotion
+#You are on 14. a few gems / Modifying the Form Template
