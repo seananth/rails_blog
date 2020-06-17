@@ -1,6 +1,8 @@
 class ArticlesController < ApplicationController
     include ArticlesHelper
 
+    before_action :require_login, except: [:index, :show]
+
     def index
         @articles = Article.all
     end
@@ -48,4 +50,4 @@ class ArticlesController < ApplicationController
 
 end
 
-#You are on 14. a few gems / Modifying the Form Template
+#You are on 15 "Logging in"
